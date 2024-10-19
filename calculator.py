@@ -6,6 +6,7 @@
 # 5. POWER
 # 6. INTEGRATION
 # 7. DIFFRENTIATION
+# 8. FUNCTION
 
 print("Select an operation to perfom: ")
 print("1. ADD")
@@ -15,6 +16,7 @@ print("4. DIVIDE")
 print("5. POWER")
 print("6. INTEGRATION")
 print("7. DIFFRENTIATION")
+print("8. FUNCTION")
 
 operation = input()
 
@@ -53,5 +55,7 @@ elif operation == "7":
     B = (main_num ** A)
     L = B * power
     print("The Diffrentiation is: ", L)
+elif operation == "8":
+    
 else:
     print("Invalid Entry")
